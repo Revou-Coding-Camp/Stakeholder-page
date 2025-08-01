@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stakeholder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="start"></div>
+    <button id="menu-toggle" class="menu-toggle" tabindex="0">☰</button> <!-- setelah toggle aktif maka hurufnya ganti ke ✖ dan vice versa -->
+    <button id="theme-toggle" class="btn-toggle"><img src="asset/img/github-mark.svg" alt="theme" inverted></button>
+    <div class="head-parent">
+        <div class="head"><img src="asset/img/github-mark.svg" inverted alt="navbar logo"><h1>Stakeholder</h1>
+            <form id="name-form">
+                <input type="text" id="name-input" placeholder="Input your Name">
+                <button type="submit" id="submit-name-btn">Start</button>
+            </form>
+        </div>
+    </div>
+    <nav id="navbar" class="navbar">
+        <div class="logo"><img src="asset/img/github-mark.svg" alt="navbar logo" inverted></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Our Profile</a></li>
+            <li><a href="#message">Message Us</a></li>
+            <li><a href="https://msalmanrafadhlih.github.io/My-portofolio/" target="_blank" rel="noopener noreferrer">Portofolio</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Section 1 -->
+        <section id="home" class="section1">
+            <div class="greeting-section">
+                <h1>Hi, <span id="user-name"></span>!</h1>
+                <p>Ini adalah website latihan pertama.</p>
+            </div>
+            <div class="form-section">
+                <form id="name-form">
+                    <input type="text" id="name-input" placeholder="Input your name here">
+                    <button type="submit" id="submit-name-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section id="profile" class="section2"></section>
+        <!-- Section 3 -->
+        <section id="message" class="section3"></section>
+    </main>
+    <footer>
+        <p>Created by <a href="https://github.com/msalmanrafadhlih"><img src="/asset/img/github-mark.svg" alt="github logo" inverted>Salman Rafadhlih</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
