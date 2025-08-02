@@ -49,4 +49,4 @@ This repository is currently not licensed. Please contact the owner for more inf
 ## About
 
 Created for Revou Coding Camp  
-Managed by [Revou-Coding-Camp](https://github.com/Revou-Coding-Camp)
+Managed by [Revou-Coding-Camp]([https://github.com/Revou-Coding-Camp](https://revou-coding-camp.github.io/codingcamp-28-jul-2025-msalmanrafadhlih/))
