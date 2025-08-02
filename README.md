@@ -27,7 +27,7 @@ To run or edit the page locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Revou-Coding-Camp/Stakeholder-page.git
+    git clone https://github.com/Revou-Coding-Camp/codingcamp-28-jul-2025-msalmanrafadhlih.git
     ```
 2. Open the files (`index.html`, `style.css`, etc.) in your preferred code editor.
 3. Open `index.html` in your web browser to see the page.
