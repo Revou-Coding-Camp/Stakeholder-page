@@ -6,48 +6,89 @@
     <title>Stakeholder</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="no-scroll">
     <div id="start"></div>
-    <button id="menu-toggle" class="menu-toggle" tabindex="0">☰</button> <!-- setelah toggle aktif maka hurufnya ganti ke ✖ dan vice versa -->
-    <button id="theme-toggle" class="btn-toggle"><img src="asset/img/github-mark.svg" alt="theme" inverted></button>
+    <button id="menu-toggle" class="menu-toggle" tabindex="0">☰</button>
+    <button id="theme-toggle" class="btn-toggle"><img src="asset/img/darkLightMode.svg" alt="theme" inverted></button>
     <div class="head-parent">
         <div class="head"><img src="asset/img/github-mark.svg" inverted alt="navbar logo"><h1>Stakeholder</h1>
-            <form id="name-form">
-                <input type="text" id="name-input" placeholder="Input your Name">
-                <button type="submit" id="submit-name-btn">Start</button>
+            <form id="name-form2">
+                <input type="text" id="name-input2" placeholder="Input your Name"> 
+                <button type="submit" id="submit-name-btn2">Start</button>
             </form>
         </div>
     </div>
-    <nav id="navbar" class="navbar">
+    <nav id="navbar" class="navbar view">
         <div class="logo"><img src="asset/img/github-mark.svg" alt="navbar logo" inverted></div>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#profile">Our Profile</a></li>
             <li><a href="#message">Message Us</a></li>
-            <li><a href="https://msalmanrafadhlih.github.io/My-portofolio/" target="_blank" rel="noopener noreferrer">Portofolio</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#footer">🢛</a></li>
         </ul>
     </nav>
     <main>
         <!-- Section 1 -->
         <section id="home" class="section1">
             <div class="greeting-section">
-                <h1>Hi, <span id="user-name"></span>!</h1>
-                <p>Ini adalah website latihan pertama.</p>
+                <h1 id="user-name">Input your name!</h1>
+                <p id="introduction"></p>
             </div>
-            <div class="form-section">
+            <div class="form-section" id="form-section1">
                 <form id="name-form">
-                    <input type="text" id="name-input" placeholder="Input your name here">
+                    <input type="text" id="name-input" placeholder="🖍 🖍 🖍" required>
                     <button type="submit" id="submit-name-btn">Submit</button>
                 </form>
             </div>
         </section>
         <!-- Section 2 -->
-        <section id="profile" class="section2"></section>
+        <section id="portofolio" class="section2">
+            <h1>this is portofolio</h1>
+        </section>
         <!-- Section 3 -->
-        <section id="message" class="section3"></section>
+        <section id="profile" class="section3">
+            <h1>this is profile</h1>
+        </section>
+
+
+        <!-- Section 4 -->
+        <section id="message" class="section4">
+            <h2>Message Us</h2>
+
+        <div id="messageWrapper">
+            <form id="messageForm">
+            <h3 id="name"></h3>
+            <label>
+                Email:<br />
+                <input type="email" name="email"/>
+            </label><br />
+
+            <label>
+                Nomor HP:<br />
+                <input type="tel" name="phone" />
+            </label><br />
+
+            <label>
+                Pesan:<br />
+                <textarea name="message" rows="4"></textarea>
+            </label><br />
+
+            <button type="submit">Submit</button>
+            </form>
+
+            <div id="infoBox">
+            <h3>Hasil Input:</h3>
+            <p><b>Nama:</b> <span id="resultName">-</span></p>
+            <p><b>Email:</b> <span id="resultEmail">-</span></p>
+            <p><b>Nomor HP:</b> <span id="resultPhone">-</span></p>
+            <p><b>Pesan:</b> <span id="resultMessage">-</span></p>
+            </div>
+        </div>
+        </section>
     </main>
-    <footer>
-        <p>Created by <a href="https://github.com/msalmanrafadhlih"><img src="/asset/img/github-mark.svg" alt="github logo" inverted>Salman Rafadhlih</a></p>
+    <footer id="footer">
+        <p>Created by <a href="https://github.com/msalmanrafadhlih" target="_blank"><img src="/asset/img/github-mark.svg" alt="github logo" inverted>Salman Rafadhlih</a></p>
     </footer>
 
     <script src="js/script.js"></script>
